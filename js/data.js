@@ -21,7 +21,7 @@ const ESTUDIO = {
 
   email: "arqraz@gmail.com",
   whatsapp: "5491148701010",   // 11 4870-1010
-  instagram: "arqraz"
+  instagram: "lumatoarquitectura"
 };
 
 /* ------------------------------------------------------------
