@@ -79,7 +79,7 @@ ul,ol{padding:0;list-style:none}
   position:absolute;
   left:0;right:0;top:0;
   bottom:calc(clamp(170px,29vh,320px) + 54px);
-  background:url("../img/retrato-hero.jpg?v=2") center bottom / cover no-repeat;
+  background:url("../img/retrato-hero.jpg?v=4") center 70% / cover no-repeat;
   pointer-events:none;
   z-index:0;
 }
