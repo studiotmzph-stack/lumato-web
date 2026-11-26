@@ -7,7 +7,7 @@
    abre la carpeta completa de esa casa.
 
    Para agregar una casa:
-     1. Copiar las fotos en assets/img/<nombre-de-la-casa>/
+     1. Copiar las fotos en img/<nombre-de-la-casa>/
         como 01.jpg, 02.jpg, ...
      2. Agregar una entrada en OBRAS con n, nombre, barrio,
         partido, lat, lng y fotos: fotos("<nombre>", cant).
@@ -41,7 +41,7 @@ const SERVICIOS = [
 function fotos(slug, cantidad) {
   return Array.from({ length: cantidad }, (_, i) => {
     const n = String(i + 1).padStart(2, "0");
-    return { src: "assets/img/" + slug + "/" + n + ".jpg", vista: "Vista " + n };
+    return { src: "img/" + slug + "/" + n + ".jpg", vista: "Vista " + n };
   });
 }
 
